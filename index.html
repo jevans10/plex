@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f5f9; /* Light blue */
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .button-container {
+      text-align: center;
+    }
+
+    .button {
+      display: inline-block;
+      width: 200px;
+      height: 250px; /* Adjusted height to accommodate images */
+      background-color: #f4f4f4;
+      margin: 10px;
+      border-radius: 10px;
+      padding: 20px;
+      box-sizing: border-box;
+      transition: background-color 0.3s ease;
+      position: relative;
+    }
+
+    .button:hover {
+      background-color: #ddd;
+    }
+
+    .button img {
+      max-width: 100%; /* Ensure images don't exceed button width */
+      max-height: 70%; /* Adjust height of the image */
+      margin-bottom: 10px;
+    }
+
+    .button i {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .button .label {
+      font-size: 24px;
+      position: absolute;
+      left: 50%;
+      bottom: 40px;
+      transform: translateX(-50%);
+    }
+
+    .button .small-text {
+      font-size: 14px;
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  </style>
+</head>
+<body>
+  <div class="button-container">
+    <div class="button">
+      <img src="https://static-00.iconduck.com/assets.00/plex-icon-2048x2048-kdgfrhh9.png" alt="Plex">
+      <span class="label">Plex</span>
+      <span class="small-text">Watch Media</span>
+    </div>
+    <div class="button">
+      <img src="https://static-00.iconduck.com/assets.00/overseerr-icon-1024x1024-vs89p8jo.png" alt="Overseer">
+      <span class="label">Overseer</span>
+      <span class="small-text">Request Media</span>
+    </div>
+  </div>
+</body>
+</html>
