@@ -47,7 +47,14 @@
       text-align: center;
       overflow: hidden;
     }
-
+    @media (max-width: 768px) {
+      .button {
+        width: 80%; /* Adjust button width for mobile */
+        max-width: 250px; /* Set maximum width */
+        padding: 10px; /* Adjust padding for smaller buttons */
+        height: auto; /* Allow height to adjust based on content */
+      }
+    }
     .button:hover {
       background-color: #DEDBE0;
     }
