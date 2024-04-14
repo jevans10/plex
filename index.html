@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Button Page</title>
-  <link rel="icon" type="image/png" href="favicon.png">
+  <title>Josephine's Plex</title>    
+  <link rel="apple-touch-icon" sizes="180x180" href="https://josephinesplex.com/images/favicon/plex-favicon-256x256.ico"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="https://josephinesplex.com/images/favicon/plex-favicon-32x32.ico"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="https://josephinesplex.com/images/favicon/plex-favicon.png/plex-favicon-16x16.ico"/>
   <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <style>
@@ -30,8 +32,8 @@
       flex-direction: column; /* Arrange children vertically */
       align-items: center; /* Center children horizontally */
       justify-content: center; /* Center children vertically */
-      width: 35em;
-      height: 35em;
+      width: 80%; /* Adjust button width for mobile */
+      max-width: 300px; /* Set maximum width */
       background-color: #EAE6EC;
       margin: 10px;
       border-radius: 10px;
@@ -51,20 +53,20 @@
 
     .button img {
       max-width: 100%; /* Ensure images don't exceed button width */
-      max-height: 70%; /* Adjust height of the image */
+      max-height: 50%; /* Adjust height of the image for mobile */
       margin-bottom: 10px;
     }
 
     .button .label {
       font-family: "Playfair";
       font-weight: 900;
-      font-size: 48px;
-      margin-bottom: 10px;
+      font-size: 24px; /* Adjust font size for mobile */
+      margin-bottom: 5px; /* Reduce margin for smaller screens */
     }
 
     .button .small-text {
       font-family: "Courier Prime";
-      font-size: 28px;
+      font-size: 18px; /* Adjust font size for mobile */
     }
   </style>
 </head>
