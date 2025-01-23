@@ -1,66 +1,32 @@
 @font-face {
-    font-family: morai;
-    src: url(/fonts/Moirai_One/MoiraiOne-Regular.ttf);
+    font-family: montserrat;
+    src: url(/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+    src: url(/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
 html {
-    background-color: white;
-}
-
-h1 {
-    font-family: morai;
-    font-size: 7.5vh;
-    background-color: #8075ff;
-    color: white;
-    padding: auto;
-}
-
-h2 {
-    font-family: monospace;
-    font-weight: 100;
-    margin: 1.5vh auto;
-}
-
-.header-section {
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    text-align: center;
-    height: 25vw;
-}
-
-.button {
     background-color: black;
-    border: 0px solid white;
-    border-radius: 2px;
     color: white;
-    text-align: center;
-    font-size: 1.5vh;
-    font-family: monospace;
-    padding: 2rem;
-    text-decoration: none;
+    font-family: montserrat;
 }
 
-.button-section {
+a { 
+    text-decoration: none;
+    color: inherit;
+}
+
+.button { 
+    border: 2px solid white;
+    padding: 1rem;
+    gap: 5rem;
+}
+
+.button-section { 
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    gap: 5vw;
+    gap: 1rem;
 }
 
-.button:hover {
-    background-color: #8075ff;
-}
-
-.subtitle {
-    width: 30vw;
-    margin: 0 auto;
-}
-
-hr {
-    border: 0.5vh solid #8075ff;
-    width: 50vw;
-    border-radius: 2px;
+p {
+    margin-bottom: 2.5rem;
 }
