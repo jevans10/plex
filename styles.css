@@ -30,3 +30,38 @@ a {
 p {
     margin-bottom: 2.5rem;
 }
+
+.upper-text {
+    position: absolute; 
+    top: 2.5rem; 
+    right: 2.5rem; 
+    text-align: right;"
+}
+
+.lower-text {
+    display: flex; 
+    flex-direction: column; 
+    position: absolute; 
+    bottom: 5rem; 
+    left: 5rem;
+}
+
+.all-content {
+    border: 10px solid white
+}
+
+@media screen and (max-width: 1024px){
+    .upper-text { 
+        top: 20vh
+    }
+
+    .lower-text {
+        bottom: 20vh
+
+    }
+
+    .hl {
+        border-top: 10px solid white;
+        width: 100vw;
+}
+}
